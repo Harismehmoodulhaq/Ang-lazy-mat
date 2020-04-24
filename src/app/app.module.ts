@@ -11,8 +11,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
-import { SidenavComponent } from './shared/shared/components/sidenav/sidenav.component';
-import { SidenavTwoComponent } from './shared/shared/components/sidenav-two/sidenav-two.component';
+import { SidenavOneComponent } from './shared/components/sidenav-one/sidenav-one.component';
 
 
 
@@ -23,8 +22,7 @@ import { SidenavTwoComponent } from './shared/shared/components/sidenav-two/side
   declarations: [
     AppComponent,
     TopMenuComponent,
-    SidenavComponent,
-    SidenavTwoComponent,
+    SidenavOneComponent
   ],
   imports: [
     BrowserModule,
